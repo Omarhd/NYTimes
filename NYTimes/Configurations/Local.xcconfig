@@ -7,3 +7,8 @@
 
 // Configuration settings file format documentation can be found at:
 // https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+SLASH = /
+HTTPS = https:/{SLASH}
+NEWS = {HTTPS}api.nytimes.com/svc/mostpopular/v2/
+KEY = 7

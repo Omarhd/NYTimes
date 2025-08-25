@@ -29,9 +29,22 @@
 		16EE9FE42E5CC4B60093D060 /* NYTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		16EEA3282E5CCA0A0093D060 /* Exceptions for "NYTimes" folder in "NYTimes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 16EE9FCC2E5CC4B30093D060 /* NYTimes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		16EE9FCF2E5CC4B30093D060 /* NYTimes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				16EEA3282E5CCA0A0093D060 /* Exceptions for "NYTimes" folder in "NYTimes" target */,
+			);
 			path = NYTimes;
 			sourceTree = "<group>";
 		};
@@ -43,11 +56,6 @@
 		16EE9FE72E5CC4B60093D060 /* NYTimesUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NYTimesUITests;
-			sourceTree = "<group>";
-		};
-		16EE9FF72E5CC4F20093D060 /* Configurations */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,7 +88,6 @@
 		16EE9FC42E5CC4B30093D060 = {
 			isa = PBXGroup;
 			children = (
-				16EE9FF72E5CC4F20093D060 /* Configurations */,
 				16EE9FCF2E5CC4B30093D060 /* NYTimes */,
 				16EE9FDD2E5CC4B60093D060 /* NYTimesTests */,
 				16EE9FE72E5CC4B60093D060 /* NYTimesUITests */,
@@ -115,7 +122,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				16EE9FCF2E5CC4B30093D060 /* NYTimes */,
-				16EE9FF72E5CC4F20093D060 /* Configurations */,
 			);
 			name = NYTimes;
 			packageProductDependencies = (
@@ -278,8 +284,6 @@
 /* Begin XCBuildConfiguration section */
 		16EE9FED2E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -337,8 +341,6 @@
 		};
 		16EE9FF02E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,10 +349,12 @@
 				DEVELOPMENT_TEAM = 2C4XF58Z9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYTimes/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -359,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytimes.app.io.NYTimes;
+				PRODUCT_BUNDLE_IDENTIFIER = nytimes.app.io;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -373,8 +377,6 @@
 		};
 		16EE9FF32E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -394,8 +396,6 @@
 		};
 		16EE9FF62E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -413,8 +413,6 @@
 		};
 		16EE9FFE2E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Development.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -479,8 +477,6 @@
 		};
 		16EE9FFF2E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Development.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,10 +485,12 @@
 				DEVELOPMENT_TEAM = 2C4XF58Z9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYTimes/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -501,7 +499,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytimes.app.io.NYTimes;
+				PRODUCT_BUNDLE_IDENTIFIER = nytimes.app.io.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -515,8 +513,6 @@
 		};
 		16EEA0002E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Development.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -536,8 +532,6 @@
 		};
 		16EEA0012E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Development.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -555,8 +549,6 @@
 		};
 		16EEA0022E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Local.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -621,8 +613,6 @@
 		};
 		16EEA0032E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Local.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -631,10 +621,12 @@
 				DEVELOPMENT_TEAM = 2C4XF58Z9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYTimes/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -643,7 +635,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytimes.app.io.NYTimes;
+				PRODUCT_BUNDLE_IDENTIFIER = nytimes.app.io.local;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -657,8 +649,6 @@
 		};
 		16EEA0042E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Local.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -678,8 +668,6 @@
 		};
 		16EEA0052E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 16EE9FF72E5CC4F20093D060 /* Configurations */;
-			baseConfigurationReferenceRelativePath = Local.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
