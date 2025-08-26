@@ -18,19 +18,22 @@ final class NYTimesTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testExample() async throws {
+        // Locate the local news.json file in the test bundle
+        let bundle = Bundle(for: type(of: self))
+        guard let url = bundle.url(forResource: "news", withExtension: "json") else {
+            XCTFail("Missing news.json file in bundle")
+            return
+        }
+        let data = try Data(contentsOf: url)
+        let decoder = JSONDecoder()
+        let newsResponse = try decoder.decode(NewsResponse.self, from: data)
+        // Assert that results is not nil and has at least one item
+        XCTAssertNotNil(newsResponse.results, "newsResponse.results should not be nil")
+        // Check first news item
+        let firstItem = newsResponse.results?[0]
+        if let media = firstItem?.media, !media.isEmpty {
+            XCTAssertNotNil(firstItem?.newsImageURL, "newsImageURL should not be nil if media exists")
         }
     }
-
 }
