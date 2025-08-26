@@ -1,0 +1,15 @@
+//
+//  NewsDetailsModel.swift
+//  NYTimes
+//
+//  Created by Omar Abdulrahman on 26/08/2025.
+//  Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
+//
+
+import Foundation
+
+struct NewsDetailsModel {
+    let id: Int
+    let name: String
+    // Other properties can be added here
+}

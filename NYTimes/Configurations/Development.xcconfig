@@ -10,5 +10,5 @@
 
 SLASH = /
 HTTPS = https:/{SLASH}
-NEWS = {HTTPS}api.nytimes.com/svc/mostpopular/v2/
+NEWS = {HTTPS}api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json
 KEY = 7
