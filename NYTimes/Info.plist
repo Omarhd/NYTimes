@@ -4,8 +4,6 @@
 <dict>
 	<key>NEWS</key>
 	<string>${NEWS}</string>
-	<key>HTTPS</key>
-	<string>${HTTPS}</string>
 	<key>SLASH</key>
 	<string>${SLASH}</string>
 	<key>KEY</key>

@@ -15,7 +15,6 @@ enum AppRoute: Hashable {
         switch self {
         case .newsDetails(let input):
             NewsDetailsCoordinator.start(input: input)
-            
         }
     }
 }

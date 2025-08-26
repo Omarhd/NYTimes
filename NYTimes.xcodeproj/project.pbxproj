@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4CC230822E5D9F9600AA7175 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4CC230812E5D9F9600AA7175 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		16EE9FDB2E5CC4B60093D060 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC230822E5D9F9600AA7175 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = NYTimes;
 			packageProductDependencies = (
+				4CC230812E5D9F9600AA7175 /* Kingfisher */,
 			);
 			productName = NYTimes;
 			productReference = 16EE9FCD2E5CC4B30093D060 /* NYTimes.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 16EE9FC42E5CC4B30093D060;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4CC230802E5D9F9600AA7175 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 16EE9FCE2E5CC4B30093D060 /* Products */;
 			projectDirPath = "";
@@ -284,6 +293,8 @@
 /* Begin XCBuildConfiguration section */
 		16EE9FED2E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Release.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -341,6 +352,8 @@
 		};
 		16EE9FF02E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -377,6 +390,8 @@
 		};
 		16EE9FF32E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Release.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +411,8 @@
 		};
 		16EE9FF62E5CC4B60093D060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Release.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -413,6 +430,8 @@
 		};
 		16EE9FFE2E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Development.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -477,6 +496,8 @@
 		};
 		16EE9FFF2E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Development.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,6 +534,8 @@
 		};
 		16EEA0002E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Development.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +555,8 @@
 		};
 		16EEA0012E5CC56E0093D060 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Development.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,6 +574,8 @@
 		};
 		16EEA0022E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Local.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -613,6 +640,8 @@
 		};
 		16EEA0032E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Local.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -649,6 +678,8 @@
 		};
 		16EEA0042E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Local.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -668,6 +699,8 @@
 		};
 		16EEA0052E5CC57E0093D060 /* Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 16EE9FCF2E5CC4B30093D060 /* NYTimes */;
+			baseConfigurationReferenceRelativePath = Configurations/Local.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -727,6 +760,25 @@
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CC230802E5D9F9600AA7175 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CC230812E5D9F9600AA7175 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CC230802E5D9F9600AA7175 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 16EE9FC52E5CC4B30093D060 /* Project object */;
 }

@@ -10,10 +10,11 @@ import SwiftUI
 class NewsListCoordinator: ObservableObject {
     
     class func start(input: NewsListInput) -> some View {
+        let coordinator = AppCoordinator()
         let repository = NewsListRepository(input: input)
         let useCase = NewsListUseCase(repository: repository)
         let viewModel = NewsListViewModel(useCase: useCase)
-        let view = NewsListView(viewModel: viewModel)
+        let view = NewsListView(viewModel: viewModel, coordinator: coordinator)
         return view
     }
 }

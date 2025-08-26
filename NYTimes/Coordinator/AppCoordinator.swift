@@ -8,6 +8,7 @@
 import Foundation
 
 class AppCoordinator: ObservableObject {
+    
     @Published var path: [AppRoute] = []
     @Published var sheetRoute: AppRoute? = nil
 

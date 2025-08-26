@@ -11,15 +11,31 @@ struct NewsListView: View {
     
     // MARK: - Properties
     @ObservedObject var viewModel: NewsListViewModel
-
+    @StateObject var coordinator: AppCoordinator
+    
     // MARK: - Body
     var body: some View {
-        VStack {
-            Text(viewModel.title)
-            // Bind your view to the ViewModel
+        NavigationStack(path: $coordinator.path) {
+            VStack(spacing: 0) {
+                NewsNavigationView() // : Navigation Bar View
+                
+                ScrollView(.vertical, showsIndicators: false) { // : Actual News Scroll View
+                    ForEach(viewModel.news, id: \.hashValue) { news in
+                        NewsRowView(news: news)
+                            .onTapGesture {
+                                let input = NewsDetailsInput(news: news)
+                                coordinator.push(.newsDetails(input))
+                            }
+                    }
+                }
+            }
+            .navigationDestination(for: AppRoute.self) { route in
+                route.destinationView(coordinator: coordinator)
+            }
         }
-        .onAppear {
-            viewModel.loadData()
+        .environmentObject(coordinator)
+        .refreshable {
+            viewModel.loadNews()
         }
     }
 }

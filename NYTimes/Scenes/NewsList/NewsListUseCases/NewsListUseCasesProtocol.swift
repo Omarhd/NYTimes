@@ -9,5 +9,5 @@
 import Foundation
 
 protocol NewsListUseCaseProtocol {
-    func execute() -> [News]
+    func executeNews() async -> NewsResponse?
 }

@@ -14,9 +14,11 @@ struct NewsDetailsView: View {
 
     // MARK: - Body
     var body: some View {
-        VStack {
-            Text(viewModel.title)
-            // Bind your view to the ViewModel
+        VStack(spacing: 0) {
+            NewsDetailsNavigationBarView(title: "Details")
+            
+            ScrollView(.vertical, showsIndicators: false) { // : Actual News Details Scroll View
+            }
         }
         .onAppear {
             viewModel.loadData()

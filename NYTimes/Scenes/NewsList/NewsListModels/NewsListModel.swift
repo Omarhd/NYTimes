@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct NewsListRequest: Encodable {
+struct NewsRequest: Encodable {
     let apiKey: String
     
     enum CodingKeys: String, CodingKey {
@@ -17,10 +17,10 @@ struct NewsListRequest: Encodable {
 }
 
 // MARK: - News
-struct News: Decodable, Hashable {
-    let status, copyright: String
-    let numResults: Int
-    let results: [Result]
+struct NewsResponse: Decodable, Hashable {
+    let status, copyright: String?
+    let numResults: Int?
+    let results: [News]?
 
     enum CodingKeys: String, CodingKey {
         case status, copyright
@@ -30,19 +30,19 @@ struct News: Decodable, Hashable {
 }
 
 // MARK: - Result
-struct Result: Decodable, Hashable {
-    let uri: String
-    let url: String
-    let id, assetID: Int
-    let source: String
-    let publishedDate, updated, section, subsection: String
-    let nytdsection, adxKeywords: String
-    let byline: String
-    let type: String
-    let title, abstract: String
-    let desFacet, orgFacet, perFacet, geoFacet: [String]
-    let media: [Media]
-    let etaID: Int
+struct News: Decodable, Hashable {
+    let uri: String?
+    let url: String?
+    let id, assetID: Int?
+    let source: String?
+    let publishedDate, updated, section, subsection: String?
+    let nytdsection, adxKeywords: String?
+    let byline: String?
+    let type: String?
+    let title, abstract: String?
+    let desFacet, orgFacet, perFacet, geoFacet: [String]?
+    let media: [Media]?
+    let etaID: Int?
 
     enum CodingKeys: String, CodingKey {
         case uri, url, id
@@ -59,15 +59,21 @@ struct Result: Decodable, Hashable {
         case media
         case etaID = "eta_id"
     }
+    
+    var newsImageURL: String? {
+        guard let firstMedia = media?.first else { return nil }
+        guard let firstMediaMetadata = firstMedia.mediaMetadata?.first else { return nil }
+        return firstMediaMetadata.url ?? ""
+    }
 }
 
 // MARK: - Media
 struct Media: Decodable, Hashable {
-    let type: String
-    let subtype: String
-    let caption, copyright: String
-    let approvedForSyndication: Int
-    let mediaMetadata: [MediaMetadatum]
+    let type: String?
+    let subtype: String?
+    let caption, copyright: String?
+    let approvedForSyndication: Int?
+    let mediaMetadata: [MediaMetadatum]?
 
     enum CodingKeys: String, CodingKey {
         case type, subtype, caption, copyright
@@ -78,7 +84,7 @@ struct Media: Decodable, Hashable {
 
 // MARK: - MediaMetadatum
 struct MediaMetadatum: Decodable, Hashable {
-    let url: String
-    let format: String
-    let height, width: Int
+    let url: String?
+    let format: String?
+    let height, width: Int?
 }

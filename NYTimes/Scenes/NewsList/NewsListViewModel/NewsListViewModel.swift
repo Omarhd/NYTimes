@@ -11,16 +11,22 @@ class NewsListViewModel: ObservableObject {
    
     // MARK: - Properties
     private let useCase: NewsListUseCaseProtocol
-    @Published var title: String = ""
+    @Published var news: [News] = []
 
     // MARK: - Init
     init(useCase: NewsListUseCaseProtocol) {
         self.useCase = useCase
+        loadNews()
     }
 
     // MARK: - Methods
-    func loadData() {
-        _ = useCase.execute()
+    func loadNews() {
+        Task {
+            let newsResponse = await useCase.executeNews()
+            await MainActor.run {
+                news = newsResponse?.results ?? []
+            }
+        }
     }
 }
 

@@ -24,7 +24,7 @@ final class NewsService {
     }
     
     // MARK: - With Parameters
-    func fetchWithParamters<T: Decodable, Q: Encodable>(from url: URL, query: Q) async throws -> T {
+    func fetchWithParameters<T: Decodable, Q: Encodable>(from url: URL, query: Q) async throws -> T {
         let request = createRequest(url: url, queryParameters: query)
         return try await networkService.execute(request: request)
     }

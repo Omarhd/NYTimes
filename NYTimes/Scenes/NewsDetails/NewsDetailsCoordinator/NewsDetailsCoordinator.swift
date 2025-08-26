@@ -14,6 +14,8 @@ class NewsDetailsCoordinator: ObservableObject {
         let useCase = NewsDetailsUseCase(repository: repository)
         let viewModel = NewsDetailsViewModel(useCase: useCase)
         let view = NewsDetailsView(viewModel: viewModel)
+            .toolbar(.hidden, for: .navigationBar)
+
         return view
     }
 }

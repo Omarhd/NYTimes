@@ -9,5 +9,5 @@
 import Foundation
 
 protocol NewsListRepositoryProtocol {
-    func fetchData() -> [News]
+    func fetchNewsData(with params: NewsRequest) async throws -> NewsResponse?
 }

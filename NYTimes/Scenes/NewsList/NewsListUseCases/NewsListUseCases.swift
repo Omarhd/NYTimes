@@ -19,7 +19,9 @@ class NewsListUseCase: NewsListUseCaseProtocol {
     }
 
     // MARK: - Methods
-    func execute() -> [News] {
-        return repository.fetchData()
+    func executeNews() async -> NewsResponse? {
+        let parameters: NewsRequest = .init(apiKey: "AAd7q1zw9HOOFkIs6qaGl7S9ynB9BO2o")
+        let news = try? await repository.fetchNewsData(with: parameters)
+        return news
     }
 }
