@@ -18,7 +18,7 @@ class AppCoordinator: ObservableObject {
     }
 
     func pop() {
-        _ = path.popLast()
+        path.removeLast()
     }
 
     func popToRoot() {

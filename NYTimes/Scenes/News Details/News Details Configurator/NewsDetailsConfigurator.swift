@@ -7,13 +7,15 @@
 //
 import SwiftUI
 
-class NewsDetailsCoordinator: ObservableObject {
+class NewsDetailsCoordinator {
     
     class func start(input: NewsDetailsInput) -> some View {
         let repository = NewsDetailsRepository(input: input)
         let useCase = NewsDetailsUseCase(repository: repository)
         let viewModel = NewsDetailsViewModel(useCase: useCase)
         let view = NewsDetailsView(viewModel: viewModel)
+            .toolbar(.hidden, for: .navigationBar)
+            .toolbar(.hidden, for: .tabBar)
 
         return view
     }

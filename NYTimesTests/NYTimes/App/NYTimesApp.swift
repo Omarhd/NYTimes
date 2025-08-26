@@ -11,7 +11,7 @@ import SwiftUI
 struct NYTimesApp: App {
     var body: some Scene {
         WindowGroup {
-            NewsListCoordinator.start(input: .init())
+            TabBarConfigurator.start(input: .init())
         }
     }
 }
