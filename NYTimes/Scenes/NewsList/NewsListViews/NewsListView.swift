@@ -18,14 +18,18 @@ struct NewsListView: View {
         NavigationStack(path: $coordinator.path) {
             VStack(spacing: 0) {
                 NewsNavigationView() // : Navigation Bar View
-                
-                ScrollView(.vertical, showsIndicators: false) { // : Actual News Scroll View
-                    ForEach(viewModel.news, id: \.hashValue) { news in
-                        NewsRowView(news: news)
-                            .onTapGesture {
-                                let input = NewsDetailsInput(news: news)
-                                coordinator.push(.newsDetails(input))
-                            }
+                switch viewModel.state {
+                case .loading: NewsStateView(state: .loading)
+                case .error: NewsStateView(state: .error)
+                case .loaded:
+                    ScrollView(.vertical, showsIndicators: false) { // : Actual News Scroll View
+                        ForEach(viewModel.news, id: \.hashValue) { news in
+                            NewsRowView(news: news)
+                                .onTapGesture {
+                                    let input = NewsDetailsInput(news: news)
+                                    coordinator.push(.newsDetails(input))
+                                }
+                        }
                     }
                 }
             }

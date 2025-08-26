@@ -28,8 +28,10 @@ final class NYTimesTests: XCTestCase {
         let data = try Data(contentsOf: url)
         let decoder = JSONDecoder()
         let newsResponse = try decoder.decode(NewsResponse.self, from: data)
+        
         // Assert that results is not nil and has at least one item
         XCTAssertNotNil(newsResponse.results, "newsResponse.results should not be nil")
+        
         // Check first news item
         let firstItem = newsResponse.results?[0]
         if let media = firstItem?.media, !media.isEmpty {

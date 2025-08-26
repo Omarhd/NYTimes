@@ -12,6 +12,7 @@ class NewsListViewModel: ObservableObject {
     // MARK: - Properties
     private let useCase: NewsListUseCaseProtocol
     @Published var news: [News] = []
+    @Published var state: ViewState = .loading
 
     // MARK: - Init
     init(useCase: NewsListUseCaseProtocol) {
@@ -24,10 +25,9 @@ class NewsListViewModel: ObservableObject {
         Task {
             let newsResponse = await useCase.executeNews()
             await MainActor.run {
+                state = newsResponse == nil ? .error : .loaded
                 news = newsResponse?.results ?? []
             }
         }
     }
 }
-
-
