@@ -14,12 +14,9 @@ enum ViewState {
     
     var stateDescription: String {
         switch self {
-        case .loading:
-            return "Loading..."
-        case .loaded:
-            return "Loaded"
-        case .error:
-            return "Error"
+        case .loading: return "Loading..."
+        case .loaded: return "Loaded"
+        case .error: return "Error"
         }
     }
 }

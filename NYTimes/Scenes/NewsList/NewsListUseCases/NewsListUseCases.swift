@@ -12,6 +12,7 @@ class NewsListUseCase: NewsListUseCaseProtocol {
     
     // MARK: - Properties
     private let repository: NewsListRepositoryProtocol
+    private let key = URLs.KEY.value
 
     // MARK: - Init
     init(repository: NewsListRepositoryProtocol) {
@@ -20,7 +21,7 @@ class NewsListUseCase: NewsListUseCaseProtocol {
 
     // MARK: - Methods
     func executeNews() async -> NewsResponse? {
-        let parameters: NewsRequest = .init(apiKey: "AAd7q1zw9HOOFkIs6qaGl7S9ynB9BO2o")
+        let parameters: NewsRequest = .init(apiKey: key)
         let news = try? await repository.fetchNewsData(with: parameters)
         return news
     }

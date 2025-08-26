@@ -12,6 +12,7 @@ enum URLs: String {
     
     // MARK: Base
     case NEWS
+    case KEY
 
     var value: String {
         return Bundle.main.infoDictionary?[self.rawValue] as? String ?? ""

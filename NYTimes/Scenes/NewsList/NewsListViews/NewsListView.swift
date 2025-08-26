@@ -37,7 +37,6 @@ struct NewsListView: View {
                 route.destinationView(coordinator: coordinator)
             }
         }
-        .environmentObject(coordinator)
         .refreshable {
             viewModel.loadNews()
         }

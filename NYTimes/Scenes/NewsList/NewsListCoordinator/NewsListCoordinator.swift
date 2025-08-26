@@ -15,6 +15,8 @@ class NewsListCoordinator: ObservableObject {
         let useCase = NewsListUseCase(repository: repository)
         let viewModel = NewsListViewModel(useCase: useCase)
         let view = NewsListView(viewModel: viewModel, coordinator: coordinator)
+            .environmentObject(coordinator)
+
         return view
     }
 }
