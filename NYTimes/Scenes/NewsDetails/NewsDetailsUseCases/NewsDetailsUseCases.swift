@@ -19,7 +19,7 @@ class NewsDetailsUseCase: NewsDetailsUseCaseProtocol {
     }
 
     // MARK: - Methods
-    func execute() -> [NewsDetailsModel] {
+    func execute() -> News {
         return repository.fetchData()
     }
 }

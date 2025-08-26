@@ -9,5 +9,5 @@
 import Foundation
 
 protocol NewsDetailsRepositoryProtocol {
-    func fetchData() -> [NewsDetailsModel]
+    func fetchData() -> News
 }

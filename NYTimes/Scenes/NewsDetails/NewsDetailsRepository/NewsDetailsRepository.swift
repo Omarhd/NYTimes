@@ -18,7 +18,7 @@ class NewsDetailsRepository: NewsDetailsRepositoryProtocol {
         self.input = input
     }
     
-    func fetchData() -> [NewsDetailsModel] {
-        return [NewsDetailsModel(id: 1, name: "Sample Data")]
+    func fetchData() -> News {
+        return input.news
     }
 }

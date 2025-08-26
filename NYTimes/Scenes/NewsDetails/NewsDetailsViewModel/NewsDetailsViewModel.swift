@@ -11,17 +11,17 @@ class NewsDetailsViewModel: ObservableObject {
    
     // MARK: - Properties
     private let useCase: NewsDetailsUseCaseProtocol
-    @Published var title: String = ""
+    @Published var news: News?
 
     // MARK: - Init
     init(useCase: NewsDetailsUseCaseProtocol) {
         self.useCase = useCase
+        loadNewsDetails()
     }
 
     // MARK: - Methods
-    func loadData() {
-        let data = useCase.execute()
-        title = data.first?.name ?? "No Data"
+    private func loadNewsDetails() {
+        news = useCase.execute()
     }
 }
 

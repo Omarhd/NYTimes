@@ -11,17 +11,19 @@ struct NewsDetailsView: View {
     
     // MARK: - Properties
     @ObservedObject var viewModel: NewsDetailsViewModel
-
+    
     // MARK: - Body
     var body: some View {
         VStack(spacing: 0) {
-            NewsDetailsNavigationBarView(title: "Details")
-            
             ScrollView(.vertical, showsIndicators: false) { // : Actual News Details Scroll View
+                VStack(alignment: .leading, spacing: 16) {
+                    if let imageUrl = viewModel.news?.newsImageURL {
+                        NewsHeaderView(imageURL: imageUrl)
+                    }
+                    
+                    NewsContentView(news: viewModel.news)
+                }
             }
-        }
-        .onAppear {
-            viewModel.loadData()
         }
     }
 }

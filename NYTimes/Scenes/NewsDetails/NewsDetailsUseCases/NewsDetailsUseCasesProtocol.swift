@@ -9,5 +9,5 @@
 import Foundation
 
 protocol NewsDetailsUseCaseProtocol {
-    func execute() -> [NewsDetailsModel]
+    func execute() -> News
 }
