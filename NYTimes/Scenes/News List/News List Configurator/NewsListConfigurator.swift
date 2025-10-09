@@ -1,5 +1,5 @@
 //
-//  NewsListCoordinator.swift
+//  NewsListConfigurator.swift
 //  NYTimes
 //
 //  Created by Omar Abdulrahman on 26/08/2025.
@@ -7,7 +7,7 @@
 //
 import SwiftUI
 
-class NewsListCoordinator: ObservableObject {
+class NewsListConfigurator: ObservableObject {
     
     class func start(input: NewsListInput) -> some View {
         let coordinator = AppCoordinator()

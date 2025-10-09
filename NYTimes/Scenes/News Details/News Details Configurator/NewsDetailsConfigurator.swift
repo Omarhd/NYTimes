@@ -1,5 +1,5 @@
 //
-//  NewsDetailsCoordinator.swift
+//  NewsDetailsConfigurator.swift
 //  NYTimes
 //
 //  Created by Omar Abdulrahman on 26/08/2025.
@@ -7,7 +7,7 @@
 //
 import SwiftUI
 
-class NewsDetailsCoordinator {
+class NewsDetailsConfigurator {
     
     class func start(input: NewsDetailsInput) -> some View {
         let repository = NewsDetailsRepository(input: input)

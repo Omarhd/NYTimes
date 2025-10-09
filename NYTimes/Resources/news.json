@@ -1,0 +1,1267 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2025 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/e45fa07f-3eb6-5450-ad50-b4e2f776b45a",
+      "url": "https://www.nytimes.com/2025/08/21/opinion/trump-constitution-unitary-executive.html",
+      "id": 100000010352762,
+      "asset_id": 100000010352762,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-21 13:23:00",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "United States Politics and Government;Presidential Power (US);Presidents and Presidency (US);Constitution (US);Democracy (Theory and Philosophy);Republican Party;Supreme Court (US);United States",
+      "column": null,
+      "byline": "By David French",
+      "type": "Article",
+      "title": "One Sentence in the Constitution Is Causing America Huge Problems",
+      "abstract": "An amendment that can help save our democracy.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Power (US)",
+        "Presidents and Presidency (US)",
+        "Constitution (US)",
+        "Democracy (Theory and Philosophy)"
+      ],
+      "org_facet": [
+        "Republican Party",
+        "Supreme Court (US)"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by George Douglas; source photographs by Marc Guitard and MCCAIG/Getty Images ",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/21french-newsletter-image/21french-newsletter-image-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/21french-newsletter-image/21french-newsletter-image-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/21french-newsletter-image/21french-newsletter-image-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/af2fed68-8d40-5129-9134-2ad51ade6a80",
+      "url": "https://www.nytimes.com/2025/08/23/magazine/jen-hatmaker-interview.html",
+      "id": 100000010346835,
+      "asset_id": 100000010346835,
+      "source": "New York Times",
+      "published_date": "2025-08-23",
+      "updated": "2025-08-24 12:56:55",
+      "section": "Magazine",
+      "subsection": "",
+      "nytdsection": "magazine",
+      "adx_keywords": "Women and Girls;Divorce, Separations and Annulments;Adultery;Middle Age (Demographic);Christians and Christianity;Evangelical Movement;Writing and Writers;Content Type: Personal Profile;internal-open-access-audio;Hatmaker, Jen",
+      "column": null,
+      "byline": "By David Marchese",
+      "type": "Article",
+      "title": "Jen Hatmaker’s Life Exploded in Middle Age. So She Built a Better One.",
+      "abstract": "“It’s like I woke up halfway through my life.”",
+      "des_facet": [
+        "Women and Girls",
+        "Divorce, Separations and Annulments",
+        "Adultery",
+        "Middle Age (Demographic)",
+        "Christians and Christianity",
+        "Evangelical Movement",
+        "Writing and Writers",
+        "Content Type: Personal Profile",
+        "internal-open-access-audio"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Hatmaker, Jen"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Devin Oktar Yalkin for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/31/magazine/31mag-interivew-hatmaker-03/31mag-interivew-hatmaker-03-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/31/magazine/31mag-interivew-hatmaker-03/31mag-interivew-hatmaker-03-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/31/magazine/31mag-interivew-hatmaker-03/31mag-interivew-hatmaker-03-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/4b155b0e-7d9c-5819-b818-3f31273a81e8",
+      "url": "https://www.nytimes.com/2025/08/20/opinion/amy-klobuchar-deepfakes.html",
+      "id": 100000010341862,
+      "asset_id": 100000010341862,
+      "source": "New York Times",
+      "published_date": "2025-08-20",
+      "updated": "2025-08-21 11:14:17",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Rumors and Misinformation;Artificial Intelligence;Video Recordings, Downloads and Streaming;Law and Legislation;Regulation and Deregulation of Industry;Computers and the Internet;Social Media;Privacy;Discrimination;United States Politics and Government;X (Formerly Twitter);TikTok (ByteDance);Meta Platforms Inc;United States",
+      "column": null,
+      "byline": "By Amy Klobuchar",
+      "type": "Article",
+      "title": "Amy Klobuchar: What I Didn’t Say About Sydney Sweeney",
+      "abstract": "Deepfakes are getting more realistic and more difficult to stop. Congress needs to take steps now.",
+      "des_facet": [
+        "Rumors and Misinformation",
+        "Artificial Intelligence",
+        "Video Recordings, Downloads and Streaming",
+        "Law and Legislation",
+        "Regulation and Deregulation of Industry",
+        "Computers and the Internet",
+        "Social Media",
+        "Privacy",
+        "Discrimination",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "X (Formerly Twitter)",
+        "TikTok (ByteDance)",
+        "Meta Platforms Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Matthias Brown",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/20klobuchar/20klobuchar-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/20klobuchar/20klobuchar-mediumThreeByTwo210.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/20klobuchar/20klobuchar-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3461822d-2798-5dd6-a9e0-7230f0c1bc65",
+      "url": "https://www.nytimes.com/2025/08/22/travel/southwest-extra-seat-plus-size-travelers.html",
+      "id": 100000010355801,
+      "asset_id": 100000010355801,
+      "source": "New York Times",
+      "published_date": "2025-08-22",
+      "updated": "2025-08-25 11:47:07",
+      "section": "Travel",
+      "subsection": "",
+      "nytdsection": "travel",
+      "adx_keywords": "Airlines and Airplanes;Customer Relations;Prices (Fares, Fees and Rates);Travel and Vacations;Southwest Airlines Company",
+      "column": null,
+      "byline": "By Nia Decaille",
+      "type": "Article",
+      "title": "Southwest Is Changing Its Rules for Plus-Size Passengers",
+      "abstract": "Among other changes, the airline will soon require travelers who “encroach upon the neighboring seat” to purchase an additional ticket, which might not be refunded.",
+      "des_facet": [
+        "Airlines and Airplanes",
+        "Customer Relations",
+        "Prices (Fares, Fees and Rates)",
+        "Travel and Vacations"
+      ],
+      "org_facet": [
+        "Southwest Airlines Company"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The new policy is one of many sweeping changes that have flustered loyal customers.",
+          "copyright": "Desiree Rios for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/22/multimedia/22trav-southwest-mzkb/22trav-southwest-mzkb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/22/multimedia/22trav-southwest-mzkb/22trav-southwest-mzkb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/22/multimedia/22trav-southwest-mzkb/22trav-southwest-mzkb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/77ea5d26-09bb-52f7-af4c-3f32be952537",
+      "url": "https://www.nytimes.com/2025/08/21/world/europe/michael-boulos-tiffany-trump-business-deals.html",
+      "id": 100000010330491,
+      "asset_id": 100000010330491,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-25 06:32:02",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "United States Politics and Government;Conflicts of Interest;Corruption (Institutional);Boulos, Michael;Trump, Tiffany (1993- );Boulos, Massad (1971- );Kushner, Jared;Trump, Donald J",
+      "column": null,
+      "byline": "By Justin Scheck, Tariq Panja, Jo Becker and Bradley Hope",
+      "type": "Article",
+      "title": "He Asked Tiffany Trump to Marry Him. Then the Deals Started Coming.",
+      "abstract": "A Times investigation found that Michael Boulos and his family benefited financially from proximity to his in-laws for years.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Conflicts of Interest",
+        "Corruption (Institutional)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Boulos, Michael",
+        "Trump, Tiffany (1993- )",
+        "Boulos, Massad (1971- )",
+        "Kushner, Jared",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Michael Boulos and his wife, Tiffany Trump, at the Liberty Ball for the inauguration of President Trump’s second term in Washington, in January.",
+          "copyright": "Carlos Barria/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/15/multimedia/00int-boulos-jhfq/00int-boulos-jhfq-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/15/multimedia/00int-boulos-jhfq/00int-boulos-jhfq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/15/multimedia/00int-boulos-jhfq/00int-boulos-jhfq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/0f80232f-401b-5351-92b9-526171179e70",
+      "url": "https://www.nytimes.com/2025/08/21/nyregion/trump-fraud-james.html",
+      "id": 100000009925517,
+      "asset_id": 100000009925517,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-22 11:20:24",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Attorneys General;New York State Civil Case Against Trump (452564/2022);Frauds and Swindling;Real Estate (Commercial);Appraisals and Valuation (Property);Decisions and Verdicts;Fines (Penalties);Trump, Donald J;James, Letitia;Trump Organization;New York State",
+      "column": null,
+      "byline": "By Jonah E. Bromwich and Ben Protess",
+      "type": "Article",
+      "title": "Divided Court Eliminates Trump’s Half-Billion-Dollar Fine in Fraud Case",
+      "abstract": "New York appeals judges said that the judgment was excessive, but agreed to uphold the case so the appeal could continue.",
+      "des_facet": [
+        "Attorneys General",
+        "New York State Civil Case Against Trump (452564/2022)",
+        "Frauds and Swindling",
+        "Real Estate (Commercial)",
+        "Appraisals and Valuation (Property)",
+        "Decisions and Verdicts",
+        "Fines (Penalties)"
+      ],
+      "org_facet": [
+        "Trump Organization"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "James, Letitia"
+      ],
+      "geo_facet": [
+        "New York State"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The New York attorney general’s office sued Donald Trump and his real estate business in 2022, accusing them of inflating his net worth to obtain favorable loan terms. ",
+          "copyright": "Doug Mills/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/01/16/multimedia/00trump-james-split-kcgb-copy/00trump-james-overturn-kcgb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/16/multimedia/00trump-james-split-kcgb-copy/00trump-james-overturn-kcgb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/16/multimedia/00trump-james-split-kcgb-copy/00trump-james-overturn-kcgb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/36e95670-e855-5bdd-b7e6-57252a60b72e",
+      "url": "https://www.nytimes.com/2025/08/20/us/politics/democratic-party-voter-registration-crisis.html",
+      "id": 100000010247619,
+      "asset_id": 100000010247619,
+      "source": "New York Times",
+      "published_date": "2025-08-20",
+      "updated": "2025-08-21 12:15:15",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Voting Rights, Registration and Requirements;Polls and Public Opinion;United States Politics and Government;Democratic Party;Democratic National Committee;L2 Data",
+      "column": null,
+      "byline": "By Shane Goldmacher and Jonah Smith",
+      "type": "Article",
+      "title": "The Democratic Party Faces a Voter Registration Crisis",
+      "abstract": "The party is bleeding support beyond the ballot box, a new analysis shows.",
+      "des_facet": [
+        "Voting Rights, Registration and Requirements",
+        "Polls and Public Opinion",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Democratic Party",
+        "Democratic National Committee",
+        "L2 Data"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Florida has had a significant shift of registered voters in the Republican direction, a remarkable inversion that explains the state’s transformation from a perennial battleground to the new symbol of red America.",
+          "copyright": "Scott McIntyre for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/07/14/multimedia/pol-dems-voter-reg1-hwcq/pol-dems-voter-reg1-hwcq-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/07/14/multimedia/pol-dems-voter-reg1-hwcq/pol-dems-voter-reg1-hwcq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/07/14/multimedia/pol-dems-voter-reg1-hwcq/pol-dems-voter-reg1-hwcq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/e7b36630-72a5-5deb-af9b-bee5d81e31a5",
+      "url": "https://www.nytimes.com/2025/08/21/nyregion/alina-habba-us-attorney-new-jersey.html",
+      "id": 100000010347049,
+      "asset_id": 100000010347049,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-22 15:03:55",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "United States Attorneys;Decisions and Verdicts;Federal Courts (US);United States Politics and Government;Presidential Power (US);Habba, Alina;Bondi, Pamela J;Grace, Desiree L;Trump, Donald J;Brann, Matthew W;Justice Department;New Jersey",
+      "column": null,
+      "byline": "By Tracey Tully and Jonah E. Bromwich",
+      "type": "Article",
+      "title": "Judge Says Habba Has Served as U.S. Attorney Without Legal Authority",
+      "abstract": "Defense lawyers had questioned whether Alina Habba, a Trump loyalist, was legally authorized to run the U.S. attorney’s office in New Jersey.",
+      "des_facet": [
+        "United States Attorneys",
+        "Decisions and Verdicts",
+        "Federal Courts (US)",
+        "United States Politics and Government",
+        "Presidential Power (US)"
+      ],
+      "org_facet": [
+        "Justice Department"
+      ],
+      "per_facet": [
+        "Habba, Alina",
+        "Bondi, Pamela J",
+        "Grace, Desiree L",
+        "Trump, Donald J",
+        "Brann, Matthew W"
+      ],
+      "geo_facet": [
+        "New Jersey"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump had named Alina Habba, formerly his personal lawyer, as interim U.S. attorney for New Jersey in March.",
+          "copyright": "Kenny Holston/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/19/multimedia/met-habba-authority-zktc/met-habba-authority-zktc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/19/multimedia/met-habba-authority-zktc/met-habba-authority-zktc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/19/multimedia/met-habba-authority-zktc/met-habba-authority-zktc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6686fd7e-06c9-5432-9db2-f676f2652839",
+      "url": "https://www.nytimes.com/2025/08/21/us/alligator-alcatraz-florida-ruling.html",
+      "id": 100000010338791,
+      "asset_id": 100000010338791,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-22 15:53:58",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Immigration Detention;Illegal Immigration;Decisions and Verdicts;Federal Courts (US);United States Politics and Government;Environment;Wetlands;Williams, Kathleen M;Trump, Donald J;Alligator Alcatraz (Fla);Florida;Everglades (Fla)",
+      "column": null,
+      "byline": "By Patricia Mazzei and David C. Adams",
+      "type": "Article",
+      "title": "Judge Orders That ‘Alligator Alcatraz’ Detention Center Be Shut Down for Now",
+      "abstract": "A judge ruled that the state and federal governments acted illegally by not conducting an environmental review before building the center in the Florida Everglades.",
+      "des_facet": [
+        "Immigration Detention",
+        "Illegal Immigration",
+        "Decisions and Verdicts",
+        "Federal Courts (US)",
+        "United States Politics and Government",
+        "Environment",
+        "Wetlands"
+      ],
+      "org_facet": [
+        "Alligator Alcatraz (Fla)"
+      ],
+      "per_facet": [
+        "Williams, Kathleen M",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Florida",
+        "Everglades (Fla)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An immigration detention center in the Florida Everglades, known as Alligator Alcatraz.",
+          "copyright": "Rebecca Blackwell/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/00nat-alcatraz-ruling-fkzp/00nat-alcatraz-ruling-fkzp-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/00nat-alcatraz-ruling-fkzp/00nat-alcatraz-ruling-fkzp-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/00nat-alcatraz-ruling-fkzp/00nat-alcatraz-ruling-fkzp-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/34a96024-c32f-51b3-99d9-d01df52da1be",
+      "url": "https://www.nytimes.com/2025/08/24/magazine/landfill-calabasas-los-angeles-wildfire-ash.html",
+      "id": 100000010344179,
+      "asset_id": 100000010344179,
+      "source": "New York Times",
+      "published_date": "2025-08-24",
+      "updated": "2025-08-25 15:04:56",
+      "section": "Magazine",
+      "subsection": "",
+      "nytdsection": "magazine",
+      "adx_keywords": "Southern California Wildfires (Jan 2025);Waste Materials and Disposal;Hazardous and Toxic Substances;Calabasas (Calif)",
+      "column": null,
+      "byline": "By Nathaniel Rich",
+      "type": "Article",
+      "title": "How a Ritzy L.A. Enclave Learned a Bitter Lesson About the Limits of Its Wealth",
+      "abstract": "Calabasas residents thought it would be easy to keep wildfire ash from being trucked to their local landfill. They were wrong.",
+      "des_facet": [
+        "Southern California Wildfires (Jan 2025)",
+        "Waste Materials and Disposal",
+        "Hazardous and Toxic Substances"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Calabasas (Calif)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "“What good is privilege if you’re still being poisoned?” Ariella Schrader said.",
+          "copyright": "Kevin Cooley for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/31/magazine/31mag-calabasas-04/31mag-calabasas-04-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/31/magazine/31mag-calabasas-04/31mag-calabasas-04-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/31/magazine/31mag-calabasas-04/31mag-calabasas-04-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/afb9fe04-56e4-51e7-a43f-8cc9a1904711",
+      "url": "https://www.nytimes.com/2025/08/21/style/olivia-ferney-travel-rich-clients-tiktok.html",
+      "id": 100000010349378,
+      "asset_id": 100000010349378,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-22 17:37:14",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Travel Agencies and Agents;High Net Worth Individuals;Luxury Goods and Services;Social Media;Ferney, Olivia;Top Tier Travel",
+      "column": null,
+      "byline": "By Guy Trebay",
+      "type": "Article",
+      "title": "They’re Rich, They Travel and They Love to Complain",
+      "abstract": "A Birkin bag overnighted to Capri. A pink Brabus sports car for a Gen Z birthday party. Olivia Ferney, a travel agent to the ultrawealthy, has heard it all.",
+      "des_facet": [
+        "Travel Agencies and Agents",
+        "High Net Worth Individuals",
+        "Luxury Goods and Services",
+        "Social Media"
+      ],
+      "org_facet": [
+        "Top Tier Travel"
+      ],
+      "per_facet": [
+        "Ferney, Olivia"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Speaking of her clients, Olivia Ferney said that “no” is “not a word they can process.”",
+          "copyright": "Olivia Ferney",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/24/fashion/21st-olivia-ferney-diptych/21st-olivia-ferney-diptych-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/24/fashion/21st-olivia-ferney-diptych/21st-olivia-ferney-diptych-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/24/fashion/21st-olivia-ferney-diptych/21st-olivia-ferney-diptych-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/26e09944-8cc5-57aa-9de7-045648761413",
+      "url": "https://www.nytimes.com/2025/08/23/opinion/trump-heaven.html",
+      "id": 100000010356391,
+      "asset_id": 100000010356391,
+      "source": "New York Times",
+      "published_date": "2025-08-23",
+      "updated": "2025-08-25 19:14:15",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Museums;Slavery (Historical);Race and Ethnicity;History (Academic Subject);United States Politics and Government;Censorship;Trump, Donald J;Smithsonian Institution",
+      "column": null,
+      "byline": "By Maureen Dowd",
+      "type": "Article",
+      "title": "Trump’s Slavish Stupidity",
+      "abstract": "The president could learn a lesson from the sisters of Nativity.",
+      "des_facet": [
+        "Museums",
+        "Slavery (Historical)",
+        "Race and Ethnicity",
+        "History (Academic Subject)",
+        "United States Politics and Government",
+        "Censorship"
+      ],
+      "org_facet": [
+        "Smithsonian Institution"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Haiyun Jiang/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/23/multimedia/23dowd-qzjh/23dowd-qzjh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/23/multimedia/23dowd-qzjh/23dowd-qzjh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/23/multimedia/23dowd-qzjh/23dowd-qzjh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3b8846a9-cf08-561c-b491-0b2ba4c58e25",
+      "url": "https://www.nytimes.com/2025/08/21/arts/design/smithsonian-trump.html",
+      "id": 100000010354975,
+      "asset_id": 100000010354975,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-22 16:52:59",
+      "section": "Arts",
+      "subsection": "Art & Design",
+      "nytdsection": "arts",
+      "adx_keywords": "United States Politics and Government;Museums;Art;Trump, Donald J;Bunch, Lonnie G III;Smithsonian Institution",
+      "column": null,
+      "byline": "By Zachary Small",
+      "type": "Article",
+      "title": "White House Lists Smithsonian Exhibits It Finds Objectionable",
+      "abstract": "The Trump administration highlighted material dealing with topics like sexuality, slavery and immigration.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Museums",
+        "Art"
+      ],
+      "org_facet": [
+        "Smithsonian Institution"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Bunch, Lonnie G III"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The atrium shared between the American Art Museum and the National Portrait Gallery, two Smithsonian museums whose exhibitions were criticized by the White House.",
+          "copyright": "Alex Wroblewski/Agence France-Presse &mdash; Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/21cul-smithsonian-review-czkp/21cul-smithsonian-review-czkp-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/21cul-smithsonian-review-czkp/21cul-smithsonian-review-czkp-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/21cul-smithsonian-review-czkp/21cul-smithsonian-review-czkp-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/5dc7a850-abb9-568b-9d0c-abab00d8d470",
+      "url": "https://www.nytimes.com/2025/08/24/world/middleeast/israel-gaza-ultra-orthodox.html",
+      "id": 100000010347787,
+      "asset_id": 100000010347787,
+      "source": "New York Times",
+      "published_date": "2025-08-24",
+      "updated": "2025-08-25 10:42:07",
+      "section": "World",
+      "subsection": "Middle East",
+      "nytdsection": "world",
+      "adx_keywords": "Israel-Gaza War (2023- );Orthodox Judaism;Draft and Recruitment (Military);Demonstrations, Protests and Riots;Defense and Military Forces;Zionism;Ben-Gurion, David;Netanyahu, Benjamin;Hamas;Israel",
+      "column": null,
+      "byline": "By Elisabeth Bumiller, Natan Odenheimer and Johnatan Reiss",
+      "type": "Article",
+      "title": "The War in Israel Over Serving in War",
+      "abstract": "Ultra-Orthodox Israelis, exempt for decades from military service, are now being drafted. Their rage is dividing Israel and threatening Prime Minister Benjamin Netanyahu’s coalition.",
+      "des_facet": [
+        "Israel-Gaza War (2023- )",
+        "Orthodox Judaism",
+        "Draft and Recruitment (Military)",
+        "Demonstrations, Protests and Riots",
+        "Defense and Military Forces",
+        "Zionism"
+      ],
+      "org_facet": [
+        "Hamas"
+      ],
+      "per_facet": [
+        "Ben-Gurion, David",
+        "Netanyahu, Benjamin"
+      ],
+      "geo_facet": [
+        "Israel"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An ultra-Orthodox Jewish man being carried by Israeli security forces during a protest against conscription last week in Kfar Yona.",
+          "copyright": "Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/00int-israel-orthodox-military-qpwh/00int-israel-orthodox-military-qpwh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/00int-israel-orthodox-military-qpwh/00int-israel-orthodox-military-qpwh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/00int-israel-orthodox-military-qpwh/00int-israel-orthodox-military-qpwh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1ac8118b-1f74-5191-953c-7d56655883ad",
+      "url": "https://www.nytimes.com/2025/08/21/opinion/rufo-yarvin-trump-nihilism.html",
+      "id": 100000010351431,
+      "asset_id": 100000010351431,
+      "source": "New York Times",
+      "published_date": "2025-08-21",
+      "updated": "2025-08-22 20:59:19",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Right-Wing Extremism and Alt-Right;Conservatism (US Politics);Progressivism (Theory and Philosophy);Generation Z;United States Politics and Government;Polls and Public Opinion;Rufo, Christopher F;Yarvin, Curtis;Trump, Donald J",
+      "column": null,
+      "byline": "By David Brooks",
+      "type": "Article",
+      "title": "The Rise of Right-Wing Nihilism",
+      "abstract": "Rather than conserve or build, some people just want to destroy.",
+      "des_facet": [
+        "Right-Wing Extremism and Alt-Right",
+        "Conservatism (US Politics)",
+        "Progressivism (Theory and Philosophy)",
+        "Generation Z",
+        "United States Politics and Government",
+        "Polls and Public Opinion"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Rufo, Christopher F",
+        "Yarvin, Curtis",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Irina Rozovsky for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/21brooks-pmvb/21brooks-pmvb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/21brooks-pmvb/21brooks-pmvb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/multimedia/21brooks-pmvb/21brooks-pmvb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1061beb4-c475-59d4-9d2b-cd5a229da982",
+      "url": "https://www.nytimes.com/2025/08/18/opinion/chat-gpt-mental-health-suicide.html",
+      "id": 100000010336223,
+      "asset_id": 100000010336223,
+      "source": "New York Times",
+      "published_date": "2025-08-18",
+      "updated": "2025-08-23 15:36:43",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Artificial Intelligence;Suicides and Suicide Attempts;ChatGPT;Therapy and Rehabilitation;Anxiety and Stress;OpenAI Labs",
+      "column": null,
+      "byline": "By Laura Reiley",
+      "type": "Article",
+      "title": "What My Daughter Told ChatGPT Before She Took Her Life",
+      "abstract": "The medical profession has clear rules and responsibilities. What about the chatbots?",
+      "des_facet": [
+        "Artificial Intelligence",
+        "Suicides and Suicide Attempts",
+        "ChatGPT",
+        "Therapy and Rehabilitation",
+        "Anxiety and Stress"
+      ],
+      "org_facet": [
+        "OpenAI Labs"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Vanessa Saba",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/18reiley-image/18reiley-image-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/18reiley-image/18reiley-image-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/21/opinion/18reiley-image/18reiley-image-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/ec1223f0-42b3-58f7-b73b-f69590017a68",
+      "url": "https://www.nytimes.com/2025/08/19/realestate/arkansas-white-housing-return-to-land.html",
+      "id": 100000010335871,
+      "asset_id": 100000010335871,
+      "source": "New York Times",
+      "published_date": "2025-08-19",
+      "updated": "2025-08-25 03:17:30",
+      "section": "Real Estate",
+      "subsection": "",
+      "nytdsection": "real estate",
+      "adx_keywords": "Civil Rights and Liberties;United States Politics and Government;Race and Ethnicity;Discrimination;Law and Legislation;Whites;Right-Wing Extremism and Alt-Right;Fringe Groups and Movements;Politics and Government;Real Estate and Housing (Residential);audio-neutral-informative;audio-neutral-immersive;Return to the Land;Arkansas;United States",
+      "column": null,
+      "byline": "By Debra Kamin and Whitten Sabbatini",
+      "type": "Article",
+      "title": "The Founders of This New Development Say You Must Be White to Live There",
+      "abstract": "Housing rights experts say a community restricted to white residents is illegal, but the creators believe they could win a potential challenge in court in the current political climate.",
+      "des_facet": [
+        "Civil Rights and Liberties",
+        "United States Politics and Government",
+        "Race and Ethnicity",
+        "Discrimination",
+        "Law and Legislation",
+        "Whites",
+        "Right-Wing Extremism and Alt-Right",
+        "Fringe Groups and Movements",
+        "Politics and Government",
+        "Real Estate and Housing (Residential)",
+        "audio-neutral-informative",
+        "audio-neutral-immersive"
+      ],
+      "org_facet": [
+        "Return to the Land"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Arkansas",
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Eric Orwoll, president of Return to the Land, said his group can reject an applicant “who doesn’t present as white.”",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/17/multimedia/17re-returntotheland-01-kwzj/17re-returntotheland-01-kwzj-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/17/multimedia/17re-returntotheland-01-kwzj/17re-returntotheland-01-kwzj-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/17/multimedia/17re-returntotheland-01-kwzj/17re-returntotheland-01-kwzj-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b26e7d3f-4ebd-5e05-bb70-6a59542c06d8",
+      "url": "https://www.nytimes.com/2025/08/24/us/hot-tub-rescue.html",
+      "id": 100000010358192,
+      "asset_id": 100000010358192,
+      "source": "New York Times",
+      "published_date": "2025-08-24",
+      "updated": "2025-08-25 11:03:36",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Rescues;Emergency Medical Treatment;Hot Tubs;Heatstroke;Kentucky",
+      "column": null,
+      "byline": "By Adeel Hassan",
+      "type": "Article",
+      "title": "Two Women Are Rescued From Hot Tub at Remote Cabin",
+      "abstract": "Health issues prevented the women, who were in their 80s, from climbing out, officials said. They became unresponsive after overheating and developing hyperthermia.",
+      "des_facet": [
+        "Rescues",
+        "Emergency Medical Treatment",
+        "Hot Tubs",
+        "Heatstroke"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Kentucky"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Clifty Wilderness section of the Red River Gorge, a remote natural area in southeastern Kentucky. Two women in a remote cabin in the gorge found themselves in trouble after a prolonged hot tub soak.",
+          "copyright": "Pat & Chuck Blackley/Alamy",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/24/multimedia/24xp-hottub-smwn/24xp-hottub-smwn-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/24/multimedia/24xp-hottub-smwn/24xp-hottub-smwn-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/24/multimedia/24xp-hottub-smwn/24xp-hottub-smwn-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/72cd1b0d-7dd0-5323-9a6d-83d327a5a68c",
+      "url": "https://www.nytimes.com/2025/08/20/well/why-covid-is-spreading-again-this-summer.html",
+      "id": 100000010331140,
+      "asset_id": 100000010331140,
+      "source": "New York Times",
+      "published_date": "2025-08-20",
+      "updated": "2025-08-21 12:16:55",
+      "section": "Well",
+      "subsection": "",
+      "nytdsection": "well",
+      "adx_keywords": "Coronavirus (2019-nCoV);Summer (Season);Disease Rates;Centers for Disease Control and Prevention",
+      "column": null,
+      "byline": "By Dani Blum",
+      "type": "Article",
+      "title": "Why Covid Is Spreading Again This Summer",
+      "abstract": "Researchers are seeing an uptick in cases, as they have every summer since the pandemic began. Here’s why.",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Summer (Season)",
+        "Disease Rates"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jim Wilson/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/14/multimedia/WELL-COVID-SUMMER-RISE-ljzv/WELL-COVID-SUMMER-RISE-ljzv-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/14/multimedia/WELL-COVID-SUMMER-RISE-ljzv/WELL-COVID-SUMMER-RISE-ljzv-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/14/multimedia/WELL-COVID-SUMMER-RISE-ljzv/WELL-COVID-SUMMER-RISE-ljzv-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1a4bb057-c0bd-577f-8d29-c99c955a3824",
+      "url": "https://www.nytimes.com/2025/08/20/world/europe/alec-luhn-missing-hiker-norway-found-interview.html",
+      "id": 100000010347778,
+      "asset_id": 100000010347778,
+      "source": "New York Times",
+      "published_date": "2025-08-20",
+      "updated": "2025-08-23 17:00:02",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Rescues;Hikes and Hiking;National Parks, Monuments and Seashores;Glaciers;Luhn, Alec;Norway",
+      "column": null,
+      "byline": "By Claire Moses",
+      "type": "Article",
+      "title": "No Food, No Water, a Broken Leg: How a Hiker Survived a Harrowing Week in the Wild",
+      "abstract": "Alec Luhn, 38, an American journalist, hopes the lessons he learned from his ordeal in a national park in Norway can help others.",
+      "des_facet": [
+        "Rescues",
+        "Hikes and Hiking",
+        "National Parks, Monuments and Seashores",
+        "Glaciers"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Luhn, Alec"
+      ],
+      "geo_facet": [
+        "Norway"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Alec Luhn, an American journalist, was lost and injured for nearly a week in a national park in Norway this month.",
+          "copyright": "Veronika Silchenko",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/08/05/multimedia/20xp-luhn-wasd/20xp-luhn-wasd-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/05/multimedia/20xp-luhn-wasd/20xp-luhn-wasd-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/08/05/multimedia/20xp-luhn-wasd/20xp-luhn-wasd-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

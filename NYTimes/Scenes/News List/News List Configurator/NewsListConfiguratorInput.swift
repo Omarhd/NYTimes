@@ -1,5 +1,5 @@
 //
-//  NewsListCoordinatorInput.swift
+//  NewsListConfiguratorInput.swift
 //  NYTimes
 //
 //  Created by Omar Abdulrahman on 26/08/2025.

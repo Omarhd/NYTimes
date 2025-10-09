@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  NYTimes
+//
+//  Created by Omar Abdulrahman on 25/08/2025.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+SLASH = /
+NEWS = https:${SLASH}/api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json
+KEY = AAd7q1zw9HOOFkIs6qaGl7S9ynB9BO2o

@@ -37,9 +37,21 @@
 		16EEA3282E5CCA0A0093D060 /* Exceptions for "NYTimes" folder in "NYTimes" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Configurations/Development.xcconfig,
+				Configurations/Local.xcconfig,
+				Configurations/Release.xcconfig,
 				Info.plist,
 			);
 			target = 16EE9FCC2E5CC4B30093D060 /* NYTimes */;
+		};
+		5E5D0B552E97CD6900C0C28B /* Exceptions for "NYTimesTests" folder in "NYTimesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NYTimes/Configurations/Development.xcconfig,
+				NYTimes/Configurations/Local.xcconfig,
+				NYTimes/Configurations/Release.xcconfig,
+			);
+			target = 16EE9FD92E5CC4B60093D060 /* NYTimesTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -54,6 +66,9 @@
 		};
 		16EE9FDD2E5CC4B60093D060 /* NYTimesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5E5D0B552E97CD6900C0C28B /* Exceptions for "NYTimesTests" folder in "NYTimesTests" target */,
+			);
 			path = NYTimesTests;
 			sourceTree = "<group>";
 		};
@@ -190,7 +205,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					16EE9FCC2E5CC4B30093D060 = {
 						CreatedOnToolsVersion = 16.4;
@@ -345,6 +360,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -489,6 +505,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -633,6 +650,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
